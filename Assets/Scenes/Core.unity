@@ -336,8 +336,7 @@ AudioSource:
   m_GameObject: {fileID: 780108642}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -6749693713889468489, guid: 9e3026897025059439c7e005789ec232,
-    type: 2}
+  OutputAudioMixerGroup: {fileID: -6749693713889468489, guid: 9e3026897025059439c7e005789ec232, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -447,7 +446,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 780108642}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02071feeee9645342a8367cb1848c342, type: 3}
+  m_Script: {fileID: 11500000, guid: 411151a3381736642b128e56ead5cead, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &902372729
@@ -592,10 +591,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 933819852}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a120d957733304d40b4b7d8b1f200675, type: 3}
+  m_Script: {fileID: 11500000, guid: f4d8d90d6124254428cb8634f1630a5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LoadUi: {fileID: 980033574}
+  LoadUi: {fileID: 0}
 --- !u!4 &933819854
 Transform:
   m_ObjectHideFlags: 0
@@ -735,11 +734,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 980033568}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4286df6041c7f044a97bf424cb950a02, type: 3}
+  m_Script: {fileID: 11500000, guid: e7061e9b3a8c74148a8d9f57f5acd7b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _prograssBar: {fileID: 1461517741}
-  _loadingText: {fileID: 333121821}
+  _loadingText: {fileID: 902372731}
   _sceneLoaderCanvasGroup: {fileID: 980033569}
   _sceneLoaderCanvas: {fileID: 980033568}
   _prograssPanel: {fileID: 1047753212}
@@ -974,8 +973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 4fde5d0465b0bdf4a97b92a172a52bff,
-    type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: 4fde5d0465b0bdf4a97b92a172a52bff, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -1002,12 +1000,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1329756256}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a64d2c5760baf1947b5b6ec312a7a109, type: 3}
+  m_Script: {fileID: 11500000, guid: 47e1ccf09d462b54dbf7a1e1f4db79c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AudioMixer: {fileID: 24100000, guid: 9e3026897025059439c7e005789ec232, type: 2}
+  AudioMixer: {fileID: 0}
   GlobalSound: {fileID: 780108645}
-  StartStageName: Scenes/GameScene/Stages/Room2/Class/2_4f_ClassRoom1
+  StartStageName: Scenes/Stages/Template/TemplateStage
 --- !u!4 &1329756259
 Transform:
   m_ObjectHideFlags: 0
@@ -1031,7 +1029,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1329756256}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 276ae19f83710da47818761ca9fab0b5, type: 3}
+  m_Script: {fileID: 11500000, guid: e044ec3480aee514a9881edad46a7e2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1461517739
