@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DemoScene Shared Data
   m_EditorClassIdentifier: 
   m_TableCollectionName: DemoScene
-  m_TableCollectionNameGuidString: 00000000000000000000000000000000
+  m_TableCollectionNameGuidString: 1809570fa89bb70418df8a84e8e69e6f
   m_Entries: []
   m_Metadata:
     m_Items: []
