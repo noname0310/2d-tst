@@ -59,7 +59,7 @@ namespace Assets.Scripts.Loader
             yield return UnloadEntireCurrentSceneAsync();
             SceneManager.sceneLoaded += LoadSceneEnd;
             _leftLoadSceneCount = 1;
-            yield return LoadPrograssSingleSceneAsync("Title", "Scenes/TitleScene/Title");
+            yield return LoadPrograssSingleSceneAsync("Title", "Scenes/GameTitle/Title");
             GameManager.Sound!.StopGlobalSound();
             _currentLoadedScene = SceneType.Title;
         }
@@ -70,7 +70,7 @@ namespace Assets.Scripts.Loader
             yield return UnloadEntireCurrentSceneAsync();
             SceneManager.sceneLoaded += LoadSceneEnd;
             _leftLoadSceneCount = 1;
-            yield return LoadPrograssSingleSceneAsync("Title", "Scenes/CreditScene/Credit");
+            yield return LoadPrograssSingleSceneAsync("Title", "Scenes/GameTitle/Credit");
             _currentLoadedScene = SceneType.Credit;
         }
 
@@ -82,10 +82,10 @@ namespace Assets.Scripts.Loader
             SceneManager.sceneLoaded += LoadSceneEnd;
             var loadScenes = new[]
             {
-                new SceneInfo("EventSystem", "Scenes/GameScene/EventSystem"),
+                new SceneInfo("EventSystem", "Scenes/GameSystem/EventSystem"),
                 new SceneInfo("Stage",  GameManager.Storage!.GameData!.CurrentSceneName),
-                new SceneInfo("Camera", "Scenes/GameScene/Camera"),
-                new SceneInfo("GameUI", "Scenes/GameScene/GameUI")
+                new SceneInfo("Camera", "Scenes/GameSystem/Camera"),
+                new SceneInfo("GameUI", "Scenes/GameSystem/GameUI")
             };
             _leftLoadSceneCount = loadScenes.Length;
 
@@ -193,16 +193,16 @@ namespace Assets.Scripts.Loader
                 case SceneType.None:
                     break;
                 case SceneType.Title:
-                    yield return UnloadSceneAsync("Unloading Title", "Scenes/TitleScene/Title");
+                    yield return UnloadSceneAsync("Unloading Title", "Scenes/GameTitle/Title");
                     break;
                 case SceneType.Game:
-                    yield return UnloadSceneAsync("Unloading GameUI", "Scenes/GameScene/GameUI");
-                    yield return UnloadSceneAsync("Unloading Camera", "Scenes/GameScene/Camera");
+                    yield return UnloadSceneAsync("Unloading GameUI", "Scenes/GameSystem/GameUI");
+                    yield return UnloadSceneAsync("Unloading Camera", "Scenes/GameSystem/Camera");
                     yield return UnloadSceneAsync("Unloading Stage", GameManager.Storage!.GameData!.CurrentSceneName);
-                    yield return UnloadSceneAsync("Unloading Title", "Scenes/GameScene/EventSystem");
+                    yield return UnloadSceneAsync("Unloading Title", "Scenes/GameSystem/EventSystem");
                     break;
                 case SceneType.Credit:
-                    yield return UnloadSceneAsync("Unloading Credit", "Scenes/CreditScene/Credit");
+                    yield return UnloadSceneAsync("Unloading Credit", "Scenes/GameTitle/Credit");
                     break;
                 default:
                     throw new ArgumentOutOfRangeException();

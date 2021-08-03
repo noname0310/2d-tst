@@ -254,7 +254,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1197709431}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba8d8a67828710f4f8222e64fc8790c4, type: 3}
+  m_Script: {fileID: 11500000, guid: b18fea006eaff3c44bd92247eac5c6a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1248670825
@@ -303,28 +303,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MoveRepeatDelay: 0.5
   m_MoveRepeatRate: 0.1
-  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_PointAction: {fileID: 1054132383583890850, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_MoveAction: {fileID: 3710738434707379630, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_SubmitAction: {fileID: 2064916234097673511, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_CancelAction: {fileID: -1967631576421560919, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_LeftClickAction: {fileID: 8056856818456041789, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_MiddleClickAction: {fileID: 3279352641294131588, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_RightClickAction: {fileID: 3837173908680883260, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_ScrollWheelAction: {fileID: 4502412055082496612, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_TrackedDevicePositionAction: {fileID: 4754684134866288074, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_TrackedDeviceOrientationAction: {fileID: 1025543830046995696, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: 1054132383583890850, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: 3710738434707379630, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 2064916234097673511, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: -1967631576421560919, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 8056856818456041789, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: 3279352641294131588, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: 3837173908680883260, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 4502412055082496612, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 4754684134866288074, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 1025543830046995696, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
 --- !u!114 &1248670828
@@ -480,7 +469,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -1080}
-  m_SizeDelta: {x: 0, y: 3300}
+  m_SizeDelta: {x: 0, y: 2000}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1306286445
 MonoBehaviour:
@@ -591,7 +580,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c3308d8a9b5354f418add6dbfb673280, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 70
     m_FontStyle: 0
     m_BestFit: 0
@@ -603,20 +592,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "<color=#FF85A1><size=100>Figure Out</size></color>\r\n\r\n\r\n<color=#CBFF3D><size=80>Team
-    Archive</size></color>\r\n\r\n<color=#3DDBFF>Game Design & UI Art</color>\r\n\uC870\uC724\uAE30\r\n\r\n\r\n<color=#FFD53D>Props
-    Design & Props Art & 3D Art</color>\r\n\uC720\uD76C\uC6D0\r\n\r\n\r\n<color=#CBFF3D>Level
-    Design & Level Art</color>\r\n\uBC15\uC120\uAD8C\r\n\r\n\r\n<color=#3DDBFF>Programming</color>\r\n\uB0A8\uD604\uC885\r\n\r\n\r\n<color=#FF85A1>Tools
+  m_Text: "<color=#FF85A1><size=100>2d-tst</size></color>\r\n\r\n<color=#3DDBFF>Programming</color>\r\nnoname0310\n\r\n<color=#FF85A1>Tools
     & Sources</color>\r\nUnity <color=#BBBBBB>Unity Technologies</color>\r\nVisual
     Studio 2019 <color=#BBBBBB>Microsoft</color>\r\nAseprite <color=#BBBBBB>David
     Capello</color>\r\nBlender <color=#BBBBBB>Ton Roosendaal</color>\r\nAdobe Audition
     <color=#BBBBBB>Adobe Inc</color>\r\nA* Pathfinding Project <color=#BBBBBB>Aron
     Granberg</color>\r\n2d-extras <color=#BBBBBB>Unity Technologies</color>\r\nTextMesh
-    Pro <color=#BBBBBB>Zolran</color>\r\nYieldInstructionCache.cs <color=#BBBBBB>ejonghyuck</color>\r\n\r\n<color=#FFD53D>Fonts</color>\r\n\uB465\uADFC\uBAA8\uAF34
-    <color=#BBBBBB>\uAE40\uC911\uD0DC</color>\r\nFixedsys <color=#BBBBBB>Darien Gavin
-    Valentine</color>\r\n\r\n<color=#CBFF3D>Sounds</color>\r\n<size=45>https://www.youtube.com/watch?v=VUgpueoMTjk\r\nhttps://www.youtube.com/watch?v=akPH8wKUpCc\r\nhttps://www.youtube.com/watch?v=2zk2j7bJEbo\r\nhttps://pgtd.tistory.com/149
-    \r\nhttps://pgtd.tistory.com/148 \r\nhttps://pgtd.tistory.com/111 \r\nhttps://freesound.org/people/bolkmar/sounds/500693/
-    \r\nhttps://freesound.org/people/gevaroy/sounds/173559/ \r\nhttps://freesound.org/people/mikaelfernstrom/sounds/68703/\r\nhttps://freesound.org/people/owly-bee/sounds/415353/\r\nhttps://freesound.org/people/Archeos/sounds/325548/\r\nhttps://freesound.org/people/Mozfoo/sounds/434669/\r\nhttps://www.youtube.com/watch?v=XiAz_kBi0p8\r\n</size>"
+    Pro <color=#BBBBBB>Zolran</color>\r\nYieldInstructionCache.cs <color=#BBBBBB>ejonghyuck</color>\r\n\r\n<color=#FFD53D>Fonts</color>\r\nFixedsys
+    <color=#BBBBBB>Darien Gavin Valentine</color>\r\n\uB465\uADFC\uBAA8\uAF34 <color=#BBBBBB>\uAE40\uC911\uD0DC</color>\r\n\r\n<color=#CBFF3D>Sounds</color>\r\n<size=45>\n</size>"
 --- !u!222 &1411797013
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -821,7 +804,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c3308d8a9b5354f418add6dbfb673280, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0

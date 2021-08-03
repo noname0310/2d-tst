@@ -22,7 +22,6 @@ namespace Assets.Scripts.Controller
         public InteractionUi? InteractionUi;
         public PauseUi? PauseUi;
         public DialogUi? DialogUi;
-        public BlurUi? BlurUi;
         public NavigationCursor? NavigationCursor;
         public FadeAnimationController? DialogBranch;
         public FadeAnimationController? DialogCenterImage;
@@ -90,7 +89,7 @@ namespace Assets.Scripts.Controller
             GameManager.SetInputMap(showingMenu ? "UI" : "Player");
             if (showingMenu)
             {
-                BlurUi!.ShowBlur();
+                //BlurUi!.ShowBlur(); todo
                 GameManager.Ui!.BlockingPause = false;
                 GameManager.Ui.ControllerLeftStickMove(Vector2.zero);
                 GameManager.Ui.BlockingLeftStickMove = true;
@@ -109,7 +108,7 @@ namespace Assets.Scripts.Controller
             }
             else
             {
-                BlurUi!.HideBlur();
+                //BlurUi!.HideBlur(); todo
                 UpdateControllerVisableState();
 
                 if (_dialogBranching) return;
