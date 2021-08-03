@@ -1,1 +1,2 @@
 ../../../../../Assets/AstarPathfindingProject
+../../../../../Assets/TextMesh Pro
