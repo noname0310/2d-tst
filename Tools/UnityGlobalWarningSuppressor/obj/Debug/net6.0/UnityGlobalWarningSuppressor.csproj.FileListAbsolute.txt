@@ -1,0 +1,15 @@
+D:\noname\Projects\GitHub\FigureOut\BuildTool\UnityGlobalWarningSuppressor\bin\Debug\net6.0\UnityGlobalWarningSuppressor.exe
+D:\noname\Projects\GitHub\FigureOut\BuildTool\UnityGlobalWarningSuppressor\bin\Debug\net6.0\UnityGlobalWarningSuppressor.deps.json
+D:\noname\Projects\GitHub\FigureOut\BuildTool\UnityGlobalWarningSuppressor\bin\Debug\net6.0\UnityGlobalWarningSuppressor.runtimeconfig.json
+D:\noname\Projects\GitHub\FigureOut\BuildTool\UnityGlobalWarningSuppressor\bin\Debug\net6.0\UnityGlobalWarningSuppressor.dll
+D:\noname\Projects\GitHub\FigureOut\BuildTool\UnityGlobalWarningSuppressor\bin\Debug\net6.0\ref\UnityGlobalWarningSuppressor.dll
+D:\noname\Projects\GitHub\FigureOut\BuildTool\UnityGlobalWarningSuppressor\bin\Debug\net6.0\UnityGlobalWarningSuppressor.pdb
+D:\noname\Projects\GitHub\FigureOut\BuildTool\UnityGlobalWarningSuppressor\obj\Debug\net6.0\UnityGlobalWarningSuppressor.csproj.AssemblyReference.cache
+D:\noname\Projects\GitHub\FigureOut\BuildTool\UnityGlobalWarningSuppressor\obj\Debug\net6.0\UnityGlobalWarningSuppressor.GeneratedMSBuildEditorConfig.editorconfig
+D:\noname\Projects\GitHub\FigureOut\BuildTool\UnityGlobalWarningSuppressor\obj\Debug\net6.0\UnityGlobalWarningSuppressor.AssemblyInfoInputs.cache
+D:\noname\Projects\GitHub\FigureOut\BuildTool\UnityGlobalWarningSuppressor\obj\Debug\net6.0\UnityGlobalWarningSuppressor.AssemblyInfo.cs
+D:\noname\Projects\GitHub\FigureOut\BuildTool\UnityGlobalWarningSuppressor\obj\Debug\net6.0\UnityGlobalWarningSuppressor.csproj.CoreCompileInputs.cache
+D:\noname\Projects\GitHub\FigureOut\BuildTool\UnityGlobalWarningSuppressor\obj\Debug\net6.0\UnityGlobalWarningSuppressor.dll
+D:\noname\Projects\GitHub\FigureOut\BuildTool\UnityGlobalWarningSuppressor\obj\Debug\net6.0\ref\UnityGlobalWarningSuppressor.dll
+D:\noname\Projects\GitHub\FigureOut\BuildTool\UnityGlobalWarningSuppressor\obj\Debug\net6.0\UnityGlobalWarningSuppressor.pdb
+D:\noname\Projects\GitHub\FigureOut\BuildTool\UnityGlobalWarningSuppressor\obj\Debug\net6.0\UnityGlobalWarningSuppressor.genruntimeconfig.cache
