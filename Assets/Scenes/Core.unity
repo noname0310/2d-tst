@@ -738,7 +738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _prograssBar: {fileID: 1461517741}
-  _loadingText: {fileID: 902372731}
+  _loadingText: {fileID: 333121821}
   _sceneLoaderCanvasGroup: {fileID: 980033569}
   _sceneLoaderCanvas: {fileID: 980033568}
   _prograssPanel: {fileID: 1047753212}
@@ -912,7 +912,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bb2a870956812404cacbe843fc2425c1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 594be9a3803d3514599cb105f6546e82, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1089,7 +1089,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 63232b8e65403144d996ca523973bfe1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 244eb51f7cce0164d984f3b0640dcc44, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
